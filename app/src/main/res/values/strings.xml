@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SpinnerConOpciones</string>
+
+
+    <string-array name ="servicios">
+
+        <item>servicio1</item>
+        <item>servicio2</item>
+        <item>servicio3</item>
+        <item>servicio4</item>
+
+    </string-array>
+</resources>
