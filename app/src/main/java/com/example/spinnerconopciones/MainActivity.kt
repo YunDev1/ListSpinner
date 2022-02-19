@@ -33,9 +33,9 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
         val item = parent?.getItemAtPosition(position).toString()
         Toast.makeText(this, item, Toast.LENGTH_SHORT).show()//sustituimos el texto a escribir por "item", si ponemos  position.toString() en lugar de item nos muestra la posicion del elemento seleccionado
         when (item){
-            "servicio1"-> Toast.makeText(this, "ok", Toast.LENGTH_LONG).show()
-            "servicio2"-> Toast.makeText(this, "sisi", Toast.LENGTH_SHORT).show()
-            "servicio3"-> Toast.makeText(this, "nono", Toast.LENGTH_SHORT).show()
+            "servicio1"-> Toast.makeText(this, "cambio1", Toast.LENGTH_LONG).show()
+            "servicio2"-> Toast.makeText(this, "cambio2", Toast.LENGTH_SHORT).show()
+            "servicio3"-> Toast.makeText(this, "cambio3", Toast.LENGTH_SHORT).show()
             "servicio4"-> Toast.makeText(this, "a ver si nos aclaramos", Toast.LENGTH_SHORT).show()
         }
     }
